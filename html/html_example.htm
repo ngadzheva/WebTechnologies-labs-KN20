@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="author" content="ngadzheva"/>
+      <meta name="keywords" content="html, basic elements, tables, forms, lists"/>
+      <meta name="description" content="What is HTML and which are its basic elements"/>
+
+      <title>HTML Demo</title>
+    </head>
+    <body>
+        <h1> This is heading 1 </h1>
+        <h2> This is heading 2 </h2>
+        <h3> This is heading 3 </h3>
+        <h4> This is heading 4 </h4>
+        <h5> This is heading 5 </h5>
+        <h6> This is heading 6 </h6>
+
+        <h4> Unordered List: </h4>
+        <ul>
+            <li> Coffee </li>
+            <li> Tea </li>
+            <li> Milk </li>
+        </ul>
+        <h4> Ordered List: </h4>
+        <ol>
+            <li> Coffee </li>
+            <li> Tea </li>
+            <li> Milk </li>
+        </ol>
+        <h4> Definition List: </h4>
+        <dl>
+            <dt> Cola </dt>
+            <dt> Coffee </dt>
+            <dd> Both Contain caffeine<dd>
+            <dt> Tea </dt>
+            <dd> Relaxes you<dd>
+            <dt> Milk </dt>
+            <dd> Is important for young kids </dd>
+            <dd> Contains Calcium </dd>
+        </dl>
+
+        <form action="./server.php">
+            <fieldset>
+              <legend> Register </legend>
+              <label> Username <input placeholder="John Smith"> </label>
+              <label> Password <input type="password">          </label>
+              <label> Email    <input type="email" placeholder="a@a.com"> </label>
+              Gender
+              <label> Male   <input type="radio" name="gender" value="M"> </label>
+              <label> Female <input type="radio" name="gender" value="F"> </label>
+              Age Group
+              <select>
+                <option value="1"> Kid (0-12) </option>
+                <option value="2"> Teen (13-19) </option>
+                <option value="3"> Adult (20+) </option>
+              </select>
+
+              <button>Click</button>
+              <input type="submit" value="Submit"/>
+            </fieldset>
+
+            <h4> HTML5 Autocomplete with datalist </h4>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+            <h4> New input types </h4>
+            <label for="range">Range</label>
+            <input id="range" type="range" min="0" max="100"/>
+            <label> Search <input type="search"> </label>
+            <label> Color  <input type="color">  </label>
+            <label> Date   <input type="date">   </label>
+          </form>
+
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+
+          <table border="1">
+            <thead>
+              <tr>
+                <th> Month </th>
+                <th> Savings </th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td> Sum </td>
+                <td> $180 </td>
+              </tr>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td> January </td>
+                <td> $100 </td>
+              </tr>
+              <tr>
+                <td> February </td>
+                <td> $80 </td>
+              </tr>
+            </tbody>
+          </table>
+    </body>
+</html>
