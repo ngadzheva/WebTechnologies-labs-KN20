@@ -13,4 +13,4 @@
 [PHP Basics](https://wwwtech.000webhostapp.com/slides/php.html)
 
 ## Recording
-[PHP Basics Demo](https://docs.google.com/document/d/1n4q3sK4_CzTd8i4RlgVK2Kvb7dn477a8_lK8K7Lfyn4/edit?usp=sharing)
+[PHP Basics Demo](https://drive.google.com/file/d/1FJ_xDZr2o4hmFxpnYnxG-_eJH8X52VZ7/view?usp=sharing)
