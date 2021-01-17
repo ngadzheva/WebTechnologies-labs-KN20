@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body {
+    	color: blue;
+    }
+    
+    li {
+    	color: green;
+    }
+    
+    p {
+    	color: red;
+    }
+    
+    #description {
+    	color: black;
+    }
+    
+    .div-in-p {
+    	font-size: 20px;
+    }
+    
+    h2, h3 {
+    	color: yellow;
+    }
+    
+    div p {
+    	color: grey;
+    }
+    
+    div > p {
+    	background-color: yellow;
+    }
+    
+    div + p {
+    	background-color: blue;
+    }
+    
+    div ~ p {
+    	background-color: green;
+    }
+    
+    p:first-child {
+    	background-color: pink;
+    }
+    
+    p:last-child {
+    	background-color: purple;
+    }
+    
+    p:nth-child(2) {
+    	background-color: tomato;
+    }
+    
+    p:first-of-type {
+    	font-size: 24px;
+   	}
+    
+    p:nth-of-type(3) {
+    	font-size: 30px;
+    }
+    
+    p:hover {
+    	background-color: white;
+        cursor: pointer;
+    }
+    
+    a:visited {
+    	color: black;
+    }
+    
+    a:link {
+    }
+    
+    div {
+    	width: 80%;
+        border: 1px solid black;
+        padding: 15px;
+        margin: 25px;
+    }
+    
+    #description {
+       display: none;
+    }
+</style>
+</head>
+<body>
+
+<h2>Selectors</h2>
+<p id="description">Description</p>
+
+<div>
+  <p class="div-in-p">Paragraph 1 in the div.</p>
+  <p class="div-in-p">Paragraph 2 in the div.</p>
+  <section><p>Paragraph 3 in the div.</p></section> <!-- not Child but Descendant -->
+  <p class="div-in-p">Paragraph 4 in the div.</p>
+</div>
+
+<p>Paragraph 5. Not in a div.</p>
+<p>Paragraph 6. Not in a div.</p>
+
+<h3> List </h3>
+
+<ul>
+	<li> List Item 1 </li>
+    <li> List Item 2 </li>
+</ul>
+
+</body>
+</html>
